@@ -1,2 +1,2 @@
-const name = 'JavaScript';
-console.log('Hello, ' + name);
+const name = "JavaScript";
+console.log("Hello, " + name);
