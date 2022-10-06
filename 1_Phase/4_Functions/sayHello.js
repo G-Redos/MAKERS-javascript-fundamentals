@@ -3,6 +3,12 @@
 // > sayHello();
 // 'Hello'
 
-const sayHello = () => {
-  console.log("Hello");
-};
+// file: hello.js
+
+const sayHello = (name) => {
+  return 'Hello '+ name;
+}
+// Add this at the end of the file
+module.exports = sayHello;
+
+// const hello = require('./sayHello');
