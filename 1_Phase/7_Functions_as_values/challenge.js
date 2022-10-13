@@ -12,3 +12,5 @@ const notify = (emailOrPhone, notifyFunction) => {
 
 console.log(notify('hello@makers.tech.test', notifyByEmail));
 console.log(notify('+10000000000', notifyByText));
+
+//end
